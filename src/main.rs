@@ -12,7 +12,7 @@ async fn main() {
     }
 }
 
-async fn code() -> () {
+async fn code() {
     loop {
         think_about_code();
         write_code();
@@ -21,7 +21,7 @@ async fn code() -> () {
         release_code();
     }
 }
-async fn blog() -> () {
+async fn blog() {
     loop {
         think_about_blogging().await;
         write_blogpost().await;
